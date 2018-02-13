@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item_1"
+            android:icon="@drawable/movie"
+            android:title="@string/item_1"/>
+
+        <item
+            android:id="@+id/menu_item_2"
+            android:icon="@drawable/movie"
+            android:title="@string/item_2"/>
+
+        <item
+            android:id="@+id/menu_item_3"
+            android:icon="@drawable/movie"
+            android:title="@string/item_3"/>
+
+        <item
+            android:id="@+id/menu_item_4"
+            android:icon="@drawable/movie"
+            android:title="@string/item_4"/>
+    </group>
+
+    <item android:title="@string/sub_header">
+
+        <menu>
+
+            <item
+                android:id="@+id/sub_menu_item_1"
+                android:icon="@drawable/movie"
+                android:title="@string/sub_item_1"/>
+
+            <item
+                android:id="@+id/sub_menu_item_2"
+                android:icon="@drawable/movie"
+                android:title="@string/sub_item_2"/>
+
+            <item
+                android:id="@+id/sub_menu_item_3"
+                android:icon="@drawable/movie"
+                android:title="@string/sub_item_3"/>
+
+        </menu>
+
+
+    </item>
+
+</menu>

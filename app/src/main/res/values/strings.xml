@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Material Design Components</string>
+    <string name="user_name">Coşkun Yalçınkaya</string>
+    <string name="user_email">yalcinkayacoskun@gmail.com</string>
+    <string name="item_1">item 1</string>
+    <string name="item_2">item 2</string>
+    <string name="item_3">item 3</string>
+    <string name="item_4">item 4</string>
+    <string name="sub_header">Sub Header</string>
+    <string name="sub_item_1">Sub Item 1</string>
+    <string name="sub_item_2">Sub Item 2</string>
+    <string name="sub_item_3">Sub Item 3</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
 </resources>
