@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorSwitch">#536DFE</color>
     <color name="colorCheckBoxActive">#536DFE</color>
+    <color name="colorRadioButton">#536DFE</color>
 </resources>

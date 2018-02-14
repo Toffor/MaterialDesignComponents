@@ -33,6 +33,15 @@ class MainActivity : AppCompatActivity() {
         checkBox.setOnCheckedChangeListener { _, isChecked ->
             toast(isChecked.toString())
         }
+
+        radioGroup.setOnCheckedChangeListener { _, checkedId ->
+            when (checkedId){
+                R.id.radio_button_1 -> toast("Radio Button 1")
+                R.id.radio_button_2 -> toast("Radio Button 2")
+                R.id.radio_button_3 -> toast("Radio Button 3")
+            }
+        }
+
     }
 
     private fun onNavigationItemSelected(id: Int) : Boolean{

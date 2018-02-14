@@ -49,10 +49,41 @@
             android:layout_below="@id/switchCompat"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
             android:text="@string/check_box"
             android:checked="true"
-            app:theme="@style/CheckBoxTheme"
-            />
+            app:theme="@style/CheckBoxTheme" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkBox"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:theme="@style/RadioButtonTheme"
+                android:text="@string/radio_button_1"/>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:theme="@style/RadioButtonTheme"
+                android:text="@string/radio_button_2"/>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_button_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:theme="@style/RadioButtonTheme"
+                android:text="@string/radio_button_3"/>
+
+        </RadioGroup>
 
 
 

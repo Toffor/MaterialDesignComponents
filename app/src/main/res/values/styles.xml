@@ -24,4 +24,9 @@
         <item name="colorControlNormal">@android:color/black</item>
     </style>
 
+    <style name="RadioButtonTheme">
+        <item name="colorAccent">@color/colorCheckBoxActive</item>
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+
 </resources>
