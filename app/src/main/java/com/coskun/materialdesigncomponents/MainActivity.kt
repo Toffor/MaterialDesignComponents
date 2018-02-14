@@ -29,6 +29,10 @@ class MainActivity : AppCompatActivity() {
         switchCompat.setOnCheckedChangeListener { _, isChecked ->
             toast(isChecked.toString())
         }
+
+        checkBox.setOnCheckedChangeListener { _, isChecked ->
+            toast(isChecked.toString())
+        }
     }
 
     private fun onNavigationItemSelected(id: Int) : Boolean{
