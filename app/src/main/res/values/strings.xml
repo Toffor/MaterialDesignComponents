@@ -12,4 +12,5 @@
     <string name="sub_item_3">Sub Item 3</string>
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
+    <string name="switch_compat">Switch Compat</string>
 </resources>
